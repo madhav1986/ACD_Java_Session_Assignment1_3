@@ -30,10 +30,10 @@ public class Assignment1_3
 		System.out.println(bite & bite1);
 		
 		System.out.println("Enter First Boolean variable");
-		bulean=input.nextBoolean();
+		bulean=input.nextBoolean(); //initializing the first boolean variable
 		
 		System.out.println("Enter Second Boolean variable");
-		bulean1=input.nextBoolean();
+		bulean1=input.nextBoolean(); //initializing the second boolean variable
 		System.out.println(bulean && bulean1);
 		input.close();
 	}
